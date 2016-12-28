@@ -2,12 +2,12 @@
 #include<conio.h>
 void main()
 {
-int n,fact=1,i;
+int f,fa=1,m;
 printf("enter the factorial number:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
+scanf("%d",&f);
+for(m=1;m<=f;m++)
 {
-fact=fact*i;
+fa=fa*m;
 }
-printf("the factorial is %d",fact);
+printf("the factorial is %d",fa);
 }
