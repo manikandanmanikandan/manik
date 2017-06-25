@@ -15,14 +15,15 @@ public class elep {
 		}
 		
 		int sum=0,count=0;
+		Arrays.sort(a);
 		for(int i=0;i<a.length;i++)
 		{
 			
-			if(sum<w)
+			if(sum<=w)
 			{
 				sum=a[i]+sum;
 				
-			if(sum<w)
+			if(sum<=w)
 			{
 				
 			
