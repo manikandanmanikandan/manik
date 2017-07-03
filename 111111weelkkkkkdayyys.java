@@ -6,9 +6,9 @@ public class string {
 
 	public static void main(String[] args) {
 		
-		Scanner s=new Scanner(System.in);
-		String str=s.next();
-		if( str.equalsIgnoreCase("Saturday")|| str.equalsIgnoreCase("sunday"))
+		Scanner input=new Scanner(System.in);
+		String str=input.next();
+		if( str.equal("saturday")||(str.equal("sunday")||str.equalsIgnoreCase("Saturday")|| str.equalsIgnoreCase("sunday"))
 		{
 			System.out.println("false");
 		}
